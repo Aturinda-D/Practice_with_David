@@ -37,5 +37,5 @@ Allow me to explain:
 It may be alot, but it's convenient to be able to do this in one line.
 '''
 def hello (*args):
-    print("hello,",*args )
+    print("Love you,",*args )
 hello(first_name,sirname)    
