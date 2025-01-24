@@ -36,3 +36,6 @@ Allow me to explain:
     On top of all that, we're using f-string formating to insert the result of these operations into the print-out string.
 It may be alot, but it's convenient to be able to do this in one line.
 '''
+def hello (*args):
+    print("hello,",*args )
+hello(first_name,sirname)    
