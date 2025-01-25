@@ -7,7 +7,15 @@ def ask_for_names(*args):
     check_names(names)
 
 def the_end(*args):
-    pass
+    print("\n\tThis could've all been a joke.")
+    t.sleep(1)
+    print("\tAgain, it could all be true and heartfelt.")
+    t.sleep(2)
+    print("In any case, the program is a nice waste of time, isn't it?")
+    t.sleep(2)
+    print("So long as you smile even a little bit, I'll consider it a success.")
+    t.sleep(2)
+    print("The end.\n(or is it?)\n")
 
 def check_names(name_entry):
     if name_entry.lower().split() == ['khalondi', 'vanessa']:
@@ -46,7 +54,7 @@ def normal_function(*args):
             t.sleep(.4)
             print(letter)
         t.sleep(1)
-        print(f"\nBasically, {reply.replace('!','.',1)}")
+        print(f"\nBasically, {reply.replace('!','.',1)}", "You're a great friend.")
         t.sleep(1)
         print("My feelings haven't changed one bit. I didn't show but, when you used our names together, I ...\nIn other words, I won't forget it.")
         t.sleep(2)
@@ -56,7 +64,7 @@ def normal_function(*args):
         t.sleep(2)
         print("I'll tell you when you're ready.\nHope you enjoyed this program😊 ")
         t.sleep(2)
-        print("\nI sure hope you meant all you typed in our date.\n\t(Yes, I treated it as one...hehehe💀)")
+        print("I sure hope you meant all you typed in our date.\n\t(Sorry, I meant discussion...hehehe💀)")
         t.sleep(2)
         print("Until next time, adios.\n")
     else:
