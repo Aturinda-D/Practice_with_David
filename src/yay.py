@@ -39,3 +39,5 @@ It may be alot, but it's convenient to be able to do this in one line.
 def hello (*args):
     print("Love you,",*args )
 hello(first_name,sirname)    
+name=input("What's your name, love?").title().strip()
+print("That's a beautiful name,"'',name)
